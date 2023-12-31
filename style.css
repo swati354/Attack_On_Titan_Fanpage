@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body {
+  background-image:  linear-gradient(to left, rgb(56, 48, 7), rgba(205, 191, 8, 0)),  url(images/eren_last_form.jpg);
+  background-position: left, left top;
+  background-repeat: repeat, no-repeat;
+  background-color: rgb(0, 0, 0);
+  /* padding: 15px; */
+  /* height: 100vh; */
+  /* position: absolute; */
+}
+
+.name{
+    font-size: 1000%;
+    font-weight: 500;
+    font-family: Linotext;
+    width: fit-content;
+    /* border:2px solid red ; */
+    position: absolute;
+    margin: 18% 8%;
+    
+}
+.topnav {
+  background-color: #393734;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #80760b;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #80760b;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  gap: 10px;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+  grid-auto-flow: row;
+  /* height: 100vh; */
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 4%;
+  /* max-width: 400px; */
+}
+.desc{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  /* font-weight: 300; */
+}
+
+.about{
+  align-items: center;
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 7%;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
+  max-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 50px 50px;
+  border-radius: 10%;
+  line-height: 160%;
+}
+
+.button{
+  padding: 0.5% 1%;
+  margin:2% 2%;
+  font-size: 20px;
+  border-radius: 25%;
+
+}
+.button:hover{
+  background-color: #80760b;
+}
